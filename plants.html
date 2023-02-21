@@ -11,10 +11,28 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</head>
-<body>
-
     <h3>Plants By Divya Chelikani</h3>
+  </head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="False">
+
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-link">
+      <a class="nav-link active" href="basic.html">Basic html</a>
+      </li>
+      <li class="new-link">
+        <a class="nav-link active" href="advanced.html"> Advanced</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+    
     <div class="container">
      <div class="row"> 
      <div class="col-sm-2">C</div> 
@@ -135,4 +153,19 @@
 </div>
 </div>
 
-
+<form>
+  <div class ="Form-group">
+    <label for="exampleInputEmail1" class="form-label"> Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id ="emailHelp" class="form-text"> Don't share your email to anyone</div>
+  </div>
+<div class="form-group">
+  <label class ="form-label">Plant</label>
+  <input type="text" class="form-control" placeholder="Enter your plant Name">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label"> sign up for newsletter?</label>
+    <input type="checkbox" class="form-check-input">
+    </div>
+  <button class="btn btn-primary" types="submit">Submit</button>
+</form>
